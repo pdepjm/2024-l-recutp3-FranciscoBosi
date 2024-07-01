@@ -34,3 +34,10 @@ tienePuestoSuperior(Persona1,Persona2):-
     trabajaEn(Persona2,Puesto2,_),
     Puesto1 == cadete,
     Puesto2 == pasante.
+
+
+%CONSULTAS
+%1)a) trabajaEn(Personas,_,compras). devuelve nora y pedro
+%1)b) trabajaEn(Personas,_,ventas). devuelve maria juan y roque
+%2) trabajaEnMismoDepa(Persona1,Persona2). devuelve true si ambos trabajan en mismo departamento
+%3) puedeDarOrdenes(Persona1,Persona2). devuelve true o false dependiendo si cumple tienePuestoSuperior y trabajaEnMismoDepa
