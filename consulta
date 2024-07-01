@@ -1,1 +1,2 @@
-en el porgrama el hacer la consulta puedeDarOrden(maria,juan) da true pero hay un segundo resutlado false que no se donde sale
+en el porgrama el hacer la consulta puedeDarOrden(maria,juan) da true pero hay un segundo resutlado false que no se donde sale, pense que era por los "o"  de tiene puesto superior pero borrando eso sigue dando ese true y depsues false
+ 
