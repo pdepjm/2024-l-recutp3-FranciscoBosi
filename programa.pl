@@ -29,11 +29,6 @@ tienePuestoSuperior(Persona1,Persona2):-
     trabajaEn(Persona2,Puesto2,_),
     Puesto1 == empleado,
     Puesto2 == pasante.
-tienePuestoSuperior(Persona1,Persona2):-
-    trabajaEn(Persona1,Puesto1,_),
-    trabajaEn(Persona2,Puesto2,_),
-    Puesto1 == cadete,
-    Puesto2 == pasante.
 
 
 %CONSULTAS
