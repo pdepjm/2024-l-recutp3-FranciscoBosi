@@ -18,9 +18,8 @@ puedeDarOrdenes(Persona1,Persona2):-
     tienePuestoSuperior(Persona1,Persona2).
 
 trabajaEnMismoDepa(Persona1,Persona2):-
-    trabajaEn(Persona1,_,Depa1),
-    trabajaEn(Persona2,_,Depa2),
-    Depa1==Depa2.
+    trabajaEn(Persona1,_,Depa),
+    trabajaEn(Persona2,_,Depa).
 
 tienePuestoSuperior(Persona1,Persona2):-
     trabajaEn(Persona1,Puesto1,_),
